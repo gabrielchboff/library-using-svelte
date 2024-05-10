@@ -11,10 +11,11 @@
 			<ul class="flex font-semibold justify-between">
                 <!-- Active Link = text-indigo-500
                 Inactive Link = hover:text-indigo-500 -->
-				<li class="md:px-4 md:py-2 text-indigo-500"><a href="#">Add book</a></li>
-				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">Search Book</a></li>
-				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">Delete Book</a></li>
-				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">Update Book</a></li>
+				<li class="md:px-4 md:py-2 text-indigo-500"><a href="/">Home</a></li>
+				<li class="md:px-4 md:py-2 hover:text-indigo-500"><a href="/add">Add book</a></li>
+				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="/search">Search Book</a></li>
+				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="/delete">Delete Book</a></li>
+				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="/update">Update Book</a></li>
 			</ul>
 		</div>
 		<div class="order-2 md:order-3">
